@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(135deg, rgba(128, 0, 128, 0.79), rgb(255, 34, 34));
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+    
+}
+
+main{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caixinha{
+
+    min-width: 242px;
+    min-height: 260px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 18px 0;
+   
+}
+
+.apenas-foto{
+    display: block;
+    text-align: center;
+    
+}
+
+.imagem-perfil{
+   
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+    
+}
+.infos-abaixo-foto{
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    font-weight: 700;
+    
+    
+
+}
+.nome{
+    color: black;
+}
+
+.idade {
+    
+    margin: 0 0 0 5px;
+}
+
+
+
+.localizacao{
+    justify-content: center;
+    display: flex;
+    padding: 0 0 22px 0;
+
+}
+
+
+.numeros-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px 0 3px 0px;
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+.nomes-info{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: -7px;
+    
+    
+}
